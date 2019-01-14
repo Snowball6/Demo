@@ -5,15 +5,36 @@
 # https://openpyxl.readthedocs.io/en/stable/tutorial.html
 
 import openpyxl
-wb_total = openpyxl.Workbook("Jan_upper.xlsx")  # 新建工作薄
+wb_total = openpyxl.load_workbook("Jan_upper.xlsx")  # 新建工作薄
 wb_data = openpyxl.load_workbook('data.xlsx')  # 打开需要分析的工作薄
-ws = wb_total.create_sheet("merge")         # 新建sheet
-ws.sheet_properties.tabColor = "1072BA"     # 给sheet表添加颜色
+# sheet_creat = wb_total.create_sheet("merge")         # 新建sheet
+# sheet_creat.sheet_properties.tabColor = "1072BA"     # 给sheet表添加颜色
 op_sheet = wb_data.sheetnames   # 获取分析的工作薄中的sheet名
-for sheet in wb_data:
-    print(sheet.title)
+ws = wb_total.get_sheet_by_name("merge")
+# d1 = ws.cell(row=1, column=1, value="域名")   # 设置的第一列第一行的名称
+# for (i, j) in zip(range(2, 4), op_sheet):
+#     d = ws.cell(row=1, column=i, value=j)    # 根据sheet 命名列名
+domains_list = []
+total = []
+page_list = [[], []]
+for sheet in op_sheet:
+    wb = wb_data.get_sheet_by_name(sheet)
+    for row in wb.values:
+        row = list(row)
+        domains_list.append(row)
+for data in domains_list:
+    url = data[0]
+    count = data[1]
+    print(url, count)
+    page_list[0].append(url)
+    page_list[1].append(count)
+merge_list = list(zip(*page_list))
+dict_merge = {}
+for row in merge_list:
+    # print(row[0])
+    # print(row[1])
+    dict_merge.setdefault(row[0], []).append(row[1])
+print(dict_merge)
 
 
-
-
-#wb_total.save("Jan_upper.xlsx")
+# wb_total.save("Jan_upper.xlsx")
