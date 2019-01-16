@@ -11,11 +11,10 @@ wb_data = openpyxl.load_workbook('nginx_count_Jan11.xlsx')  # 打开需要分析
 op_sheet = wb_data.sheetnames   # 获取分析的工作薄中的sheet名
 ws = wb_total.get_sheet_by_name("merge")
 d1 = ws.cell(row=1, column=1, value="域名")   # 设置的第一列第一行的名称
-for (i, j) in zip(range(2, 16), op_sheet):
+for (i, j) in zip(range(2, 16), op_sheet):    # 根据所取数据的个数，仅需修改此处即可
     d = ws.cell(row=1, column=i, value=j)    # 根据sheet 命名列名
-domains_list = []
-total = []
-page_list = [[], []]
+domains_list = []   # 用来存放所有表中的数据
+page_list = [[], []]  # 第一个嵌套列表存放域名，第二个嵌套列表存放次数
 for sheet in op_sheet:
     wb = wb_data.get_sheet_by_name(sheet)
     for row in wb.values:
@@ -26,13 +25,10 @@ for data in domains_list:
     count = data[1]
     page_list[0].append(url)
     page_list[1].append(count)
-merge_list = list(zip(*page_list))
+merge_list = list(zip(*page_list))  # 行列置换
 dict_merge = {}
 for row in merge_list:
-    # print(row[0])
-    # print(row[1])
     dict_merge.setdefault(row[0], []).append(row[1])
-print(dict_merge)
 data = []
 data_list = []
 for k, v in dict_merge.items():
@@ -41,8 +37,7 @@ for k, v in dict_merge.items():
         data.insert(1, i)
     data_list.append(data)
     data = []
-print(data_list)
 for i in data_list:
-    ws.append(i)
+    ws.append(i)   # 按行添加数据到excel中
 
-wb_total.save("Jan_upper.xlsx")
+wb_total.save("Jan_upper.xls")
