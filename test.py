@@ -35,14 +35,32 @@
 # num_result = sum_numbers(1, 2, 4)
 # print(num_result)
 
+#
+# def sum_numbers(num):
+#     # 出口
+#     if num == 1:
+#         return 1
+#     temp = sum_numbers(num - 1)
+#     return num + temp
+#
+#
+# result = sum_numbers(2)
+# print(result)
 
-def sum_numbers(num):
-    # 出口
-    if num == 1:
-        return 1
-    temp = sum_numbers(num - 1)
-    return num + temp
+
+class Cat(object):
+    def eat(self):
+        print("111")
 
 
-result = sum_numbers(2)
-print(result)
+
+
+
+
+
+
+
+
+
+
+
