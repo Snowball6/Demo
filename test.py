@@ -47,12 +47,42 @@
 # result = sum_numbers(2)
 # print(result)
 
+# class Cat:
+#
+#     def __init__(self, name):
+#         self.name = name
+#         print("%s 来了" % self.name)
+#
+#     def __del__(self):
+#         print("%s 走了" % self.name)
+#
+#     def __str__(self):
+#         return "我是小猫"
+#
+#
+# tom = Cat("tom")
+# print(tom)
 
-class Cat(object):
+class Person:
+    def __init__(self, name, height):
+        self.name = name
+        self.height = height
+
+    def __str__(self):
+        return "我的名字叫%s, 我的身高是%s" % (self.name, self.height)
+
+    def run(self):
+        print("%s " % self.name)
+        self.height -= 0.5
+
     def eat(self):
-        print("111")
+        print("%s " % self.name)
+        self.height += 1
 
 
+people = Person("xiaoming", 180)
+people.run()
+print(people)
 
 
 
