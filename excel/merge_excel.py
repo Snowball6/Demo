@@ -5,15 +5,16 @@
 # https://openpyxl.readthedocs.io/en/stable/tutorial.html
 
 import openpyxl
-wb_total = openpyxl.load_workbook("Jan_upper.xlsx")  # 新建工作薄
-wb_data = openpyxl.load_workbook('nginx_count_Jan11.xlsx')  # 打开需要分析的工作薄
-# sheet_creat.sheet_properties.tabColor = "1072BA"     # 给sheet表添加颜色
-op_sheet = wb_data.sheetnames   # 获取分析的工作薄中的sheet名
+wb_total = openpyxl.load_workbook("次数统计.xlsx")             # 新建工作薄
+wb_data = openpyxl.load_workbook('nginx_count_Jan12.xlsx')         # 打开需要分析的工作薄
+# sheet_creat.sheet_properties.tabColor = "1072BA"                # 给sheet表添加颜色
+op_sheet = wb_data.sheetnames  # 获取分析的工作薄中的sheet名
+print(op_sheet)
 ws = wb_total.get_sheet_by_name("merge")
 d1 = ws.cell(row=1, column=1, value="域名")   # 设置的第一列第一行的名称
-for (i, j) in zip(range(2, 16), op_sheet):    # 根据所取数据的个数，仅需修改此处即可
+for (i, j) in zip(range(1, 16), op_sheet):    # 根据所取数据的个数，仅需修改此处即可
     d = ws.cell(row=1, column=i, value=j)    # 根据sheet 命名列名
-domains_list = []   # 用来存放所有表中的数据
+domains_list = []    # 用来存放每个sheet中每一行的数据，作为列表返回
 page_list = [[], []]  # 第一个嵌套列表存放域名，第二个嵌套列表存放次数
 for sheet in op_sheet:
     wb = wb_data.get_sheet_by_name(sheet)
@@ -37,7 +38,10 @@ for k, v in dict_merge.items():
         data.insert(1, i)
     data_list.append(data)
     data = []
+
 for i in data_list:
+    # print(i)
     ws.append(i)   # 按行添加数据到excel中
 
-wb_total.save("Jan_upper.xls")
+wb_total.save("次数统计.xlsx")
+
