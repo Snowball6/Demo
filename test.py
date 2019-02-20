@@ -161,21 +161,27 @@
 # s2 = Tools("li")
 # print(Tools.count)
 
-
-class Demo(object):
-
-    instance = None
-
-    def __new__(cls, *args, **kwargs):
-        if cls.instance is None:
-            cls.instance = super().__new__(cls)
-
-        return cls.instance
-
-
-s1 = Demo()
-s2 = Demo()
-print(s1)
-print(s2)
-
-
+#
+# class Demo(object):
+#
+#     instance = None
+#
+#     def __new__(cls, *args, **kwargs):
+#         if cls.instance is None:
+#             cls.instance = super().__new__(cls)
+#
+#         return cls.instance
+#
+#
+# s1 = Demo()
+# s2 = Demo()
+# print(s1)
+# print(s2)
+try:
+    user = int(input("请输入一个整数："))
+    resutlt = 8 / user
+    print(resutlt)
+except ZeroDivisionError:
+    print("请重新输入")
+except ValueError:
+    print("请重新输入")
