@@ -130,28 +130,35 @@
 # print(my_home)
 
 
-class Women:
+# class Anmial(object):
+#
+#     def __init__(self, name):
+#         self.name = name
+#
+#     def dark(self):
+#         print("%s wangwang" % self.name)
+#
+# class Dog(Anmial):
+#     def dark(self):
+#         super().dark()
+#         print("小王八")
+#
+# s1 = Dog("哮天犬")
+# s1.dark()
+
+class Dog(object):
 
     def __init__(self, name):
-        self.name = name
-        self.__age = 18
+        self.name = self.name
 
-    def secret(self):
-        print("%s 的年龄是 %s" % (self.name, self.__age))
-
-
-monika = Women("wonika")
-print(monika._Women__age)
-monika._Women__secret()
+    def game(self):
+        print("%s play" % self.name)
 
 
+class XiaoTianQuan(Dog):
 
-
-
-
-
-
-
+    def game(self):
+        print(" %s fly to sky to play" % self.name)
 
 
 
