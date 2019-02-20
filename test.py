@@ -146,20 +146,36 @@
 # s1 = Dog("哮天犬")
 # s1.dark()
 
-class Tools(object):
+# class Tools(object):
+#
+#     count = 0
+#
+#     def __init__(self, name):
+#         self.name = name
+#         Tools.count += 1
+#
+#     @classmethod
+#     def count_example(cls):
+#
+# s1 = Tools("wang")
+# s2 = Tools("li")
+# print(Tools.count)
 
-    count = 0
-    
-    def __init__(self, name):
-        self.name = name
-        Tools.count += 1
+
+class Demo(object):
+
+    instance = None
+
+    def __new__(cls, *args, **kwargs):
+        if cls.instance is None:
+            cls.instance = super().__new__(cls)
+
+        return cls.instance
 
 
-s1 = Tools("wang")
-s2 = Tools("li")
-print(Tools.count)
-
-
-
+s1 = Demo()
+s2 = Demo()
+print(s1)
+print(s2)
 
 
