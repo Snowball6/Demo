@@ -146,20 +146,18 @@
 # s1 = Dog("哮天犬")
 # s1.dark()
 
-class Dog(object):
+class Tools(object):
 
+    count = 0
+    
     def __init__(self, name):
-        self.name = self.name
-
-    def game(self):
-        print("%s play" % self.name)
+        self.name = name
+        Tools.count += 1
 
 
-class XiaoTianQuan(Dog):
-
-    def game(self):
-        print(" %s fly to sky to play" % self.name)
-
+s1 = Tools("wang")
+s2 = Tools("li")
+print(Tools.count)
 
 
 
