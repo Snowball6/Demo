@@ -177,11 +177,22 @@
 # s2 = Demo()
 # print(s1)
 # print(s2)
-try:
-    user = int(input("请输入一个整数："))
-    resutlt = 8 / user
-    print(resutlt)
-except ZeroDivisionError:
-    print("请重新输入")
-except ValueError:
-    print("请重新输入")
+# try:
+# #     user = int(input("请输入一个整数："))
+# #
+# # except Exception as e:
+# #     print("出现未知错误 %s" % e)
+# #
+# # else:
+# #     resutlt = 8 / user
+# #     print(resutlt)
+# # finally:
+# #     print("执行完成")
+
+with open("readme","w") as f:
+    f.write("hello")
+
+
+
+
+

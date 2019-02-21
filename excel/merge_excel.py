@@ -6,8 +6,8 @@
 
 import openpyxl
 wb_total = openpyxl.load_workbook("次数统计.xlsx")             # 新建工作薄
-wb_data = openpyxl.load_workbook('nginx_count_Jan12.xlsx')         # 打开需要分析的工作薄
-# sheet_creat.sheet_properties.tabColor = "1072BA"                # 给sheet表添加颜色
+wb_data = openpyxl.load_workbook('nginx_count_Jan.xlsx')         # 打开需要分析的工作薄
+# sheet_creat.sheet_properties.tabColor = "1072BA"       x         # 给sheet表添加颜色
 op_sheet = wb_data.sheetnames  # 获取分析的工作薄中的sheet名
 print(op_sheet)
 ws = wb_total.get_sheet_by_name("merge")
