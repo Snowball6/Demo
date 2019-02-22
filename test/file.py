@@ -12,11 +12,11 @@
 
 # 复制大文件
 
-with open("读取.txt", "r+") as f:
-    while True:
-        content = f.readline()
-        if not content:
-            break
-        with open("写入.txt", "a") as w:
-            w.write(content)
+# with open("读取.txt", "r+") as f:
+#     while True:
+#         content = f.readline()
+#         if not content:
+#             break
+#         with open("写入.txt", "a") as w:
+#             w.write(content)
 
