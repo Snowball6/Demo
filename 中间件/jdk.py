@@ -17,7 +17,7 @@ def java_version():
     else:
         for java_exist_name in java_install.stdout.readlines():
             format_name = java_exist_name.strip().decode()
-            print("执行命令：rpm -e --nodeps %s" % format_name)
+            subprocess.Popen("rpm -e --nodeps %s" % format_name)
 
 
 if __name__ == "main":
