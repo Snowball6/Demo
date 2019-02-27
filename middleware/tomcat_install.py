@@ -23,7 +23,7 @@ def tomcat_install():
         strip().decode()
     subprocess.Popen("cd %s && tar -zxvf %s " % (install_path, tar_name), shell=True).wait()
     tomcat_name = subprocess.Popen("cd %s && ls" % install_path, shell=True, stdout=subprocess.PIPE).stdout.readline().strip().decode()
-    subprocess.Popen("cd %s && mv %s %s" % (install_path, tomcat_name, tomcat_home_path), shell=True)
+    subprocess.Popen("cd %s && mv %s %s" % (install_path, tomcat_name, tomcat_home_path), shell=True).wait()
     subprocess.Popen("cd %s%s%s && ./startup.sh" % (tomcat_home_path, tomcat_name, tomcat_dir), shell=True)
 
 
