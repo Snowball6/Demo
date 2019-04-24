@@ -8,9 +8,10 @@ import os
 
 def redis_install():
     """
+    需要修改的变量如下：
     1 、 install_path : 软件包（tar、rpm）包存放路径，请手动新建一个目录，并将tar包放到该路径下,一定要以 / 结尾
     2 、 redis_home_path :解压包后 redis的部署路径，一定要以  / 结尾
-    3、  configuration_dir : redis.conf配置文件存放路径，建议在 部署路径中建立/etc文件存储 ,一定要以  / 结尾
+    3、  configuration_dir : redis.conf配置文件存放路径，建议在 部署路径中（即redis_home_path）后建立/etc文件存储 ,一定要以  / 结尾
     :return:
     """
     install_path = "/tmp/redis/"
@@ -30,14 +31,11 @@ def redis_install():
     os.system("sed -i 's/daemonize no/daemonize yes/g' %sredis.conf" % configuration_dir)
     subprocess.Popen("echo %sbin/redis-server >> /etc/rc.local && echo %sredis.conf >> /etc/rc.local" % (redis_dir, configuration_dir), shell=True)
     subprocess.Popen("%sbin/redis-server %sredis.conf >> /etc/rc.local" % (redis_dir, configuration_dir), shell=True)
-    print("----------%s 已经成功安装----------" % redis_name)
 
 
 def main():
     redis_install()
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
-
-

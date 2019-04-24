@@ -189,8 +189,13 @@
 # # finally:
 # #     print("执行完成")
 
-with open("readme","w") as f:
-    f.write("hello")
+
+with open("读取.txt", "r") as f:
+    content = f.read()
+
+with open("写入.txt", "w") as w:
+    w.write(content)
+
 
 
 
