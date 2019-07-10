@@ -1,0 +1,29 @@
+body{ background:#000d4a url(bg.jpg) center top; background-size:cover;color:#666; padding-bottom: 30px;font-size: .1rem;}
+
+.logo{
+    position: absolute;
+    z-index: 2;
+}
+
+.left{
+    height: 50px;
+    width: 36%;
+    border-bottom: 2px seagreen solid;
+    position: absolute;
+}
+
+.right{
+    height: 50px;
+    width: 36%;
+    border-bottom: 2px seagreen solid;
+    float: right;
+    position: absolute;
+    right: 0;
+}
+
+.title{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 18px;
+}
