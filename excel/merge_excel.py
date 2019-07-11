@@ -12,7 +12,7 @@ op_sheet = wb_data.sheetnames  # 获取分析的工作薄中的sheet名
 print(op_sheet)
 ws = wb_total.get_sheet_by_name("merge")
 d1 = ws.cell(row=1, column=1, value="域名")   # 设置的第一列第一行的名称
-for (i, j) in zip(range(1, 29), op_sheet):    # 根据所取数据的个数，仅需修改此处即可
+for (i, j) in zip(range(1, 32), op_sheet):    # 根据所取数据的个数，仅需修改此处即可
     d = ws.cell(row=1, column=i, value=j)    # 根据sheet 命名列名
 domains_list = []    # 用来存放每个sheet中每一行的数据，作为列表返回
 page_list = [[], []]  # 第一个嵌套列表存放域名，第二个嵌套列表存放次数
