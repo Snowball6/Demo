@@ -17,13 +17,40 @@
             /*outline: none;*/
             /*border: 1px red solid;*/
         /*}*/
-        p:before{
-            content: "*";
-            color: red;
+        /*p:before{*/
+            /*content: "*";*/
+            /*color: red;*/
+        /*}*/
+        /*p:after{*/
+            /*content: "*";*/
+            /*color: green;*/
+        /*}*/
+        /*body {*/
+            /*background-image: url("../img/hlw.jpg");*/
+
+        /*}*/
+
+        * {
+            margin: 0;
         }
-        p:after{
-            content: "*";
-            color: green;
+        .box {
+            width: 100%;
+            height: 500px;
+            background: url("../img/hlw.jpg") no-repeat center center;
+            background-attachment: fixed;
+        }
+
+        .d1 {
+            height: 500px;
+            background-color: tomato;
+        }
+        .d2 {
+            height: 500px;
+            background-color: steelblue;
+        }
+        .d3 {
+            height: 500px;
+            background-color: mediumorchid;
         }
     </style>
 </head>
@@ -31,6 +58,9 @@
 <!--<a href="https://www.baidu.com/">点我</a>-->
 <!--<a href="http://www.17sucai.com/user/fav-list?id=1620579">点我一下</a>-->
 <!--<input type="text">-->
-<p>伪元素</p>
+    <div class="d1"></div>
+    <div class="box"></div>
+    <div class="d2"></div>
+    <div class="d3"></div>
 </body>
 </html>
