@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -8,25 +8,29 @@
     <title>Document</title>
     <link rel="stylesheet" href="">
     <style>
-        div{
+        /*a{color: red;}                     !*标签的属性*!*/
+        /*a:link{color: blue;}               !*未点击过的属性*!*/
+        /*a:visited{color: green;}           !*点击过的属性*!*/
+        /*a:hover{color: cornflowerblue;}    !*鼠标悬浮时的属性*!*/
+        /*a:active{color: coral;}            !*鼠标点击时的属性*!*/
+        /*input:focus{*/
+            /*outline: none;*/
+            /*border: 1px red solid;*/
+        /*}*/
+        p:before{
+            content: "*";
             color: red;
         }
-        p{
+        p:after{
+            content: "*";
             color: green;
-        }
-        #yellow{
-            color: yellow;
         }
     </style>
 </head>
 <body>
-
-<div id="yellow">111</div>
-<div>222</div>
-<div>333</div>
-
-<p>AAA</p>
-<p>BBB</p>
-<p>CCC</p>
+<!--<a href="https://www.baidu.com/">点我</a>-->
+<!--<a href="http://www.17sucai.com/user/fav-list?id=1620579">点我一下</a>-->
+<!--<input type="text">-->
+<p>伪元素</p>
 </body>
 </html>

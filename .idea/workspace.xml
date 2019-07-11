@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d2225da-9ef7-463d-976b-b459f229cbd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/face/distinc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/html/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/merge_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/excel/merge_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/次数统计.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/excel/次数统计.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/disk_total.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/disk_total.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/first.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/html/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/html/test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -96,16 +83,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/html/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="418">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="单例模式.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="单例模式.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/单例模式.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -179,7 +166,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="392" />
     <option name="y" value="52" />
     <option name="width" value="1582" />
@@ -726,17 +713,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/html/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/单例模式.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/html/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
