@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d2225da-9ef7-463d-976b-b459f229cbd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/html/block.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/html/float.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/html/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/html/test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -81,8 +78,8 @@
       <file leaf-file-name="distinc.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/face/distinc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="810">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -90,8 +87,8 @@
       <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/html/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+            <state relative-caret-position="1800">
+              <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -99,17 +96,17 @@
       <file leaf-file-name="block.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/html/block.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="55" />
+            <state relative-caret-position="480">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reset.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/css/reset.css">
+      <file leaf-file-name="float.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/html/float.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="267">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -117,7 +114,7 @@
       <file leaf-file-name="normalize.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/css/normalize.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9422">
+            <state relative-caret-position="480">
               <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
             </state>
           </provider>
@@ -127,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/单例模式.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -139,8 +136,8 @@
       <list>
         <option value="Jupyter Notebook" />
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -188,6 +185,7 @@
         <option value="$PROJECT_DIR$/test/css/reset.css" />
         <option value="$PROJECT_DIR$/test/css/normalize.css" />
         <option value="$PROJECT_DIR$/test/html/block.html" />
+        <option value="$PROJECT_DIR$/test/html/float.html" />
       </list>
     </option>
   </component>
@@ -200,7 +198,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="392" />
     <option name="y" value="52" />
     <option name="width" value="1582" />
@@ -302,11 +300,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.block.html">
+  <component name="RunManager" selected="JavaScript Debug.float.html">
     <configuration name="block.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/test/html/block.html" />
     <configuration name="first.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/web/first.html" />
+    <configuration name="float.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/test/html/float.html" />
     <configuration name="test.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/test/html/test.html" />
-    <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/web/test.html" />
     <configuration name="distinc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -328,18 +326,18 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.first.html" />
-      <item itemvalue="JavaScript Debug.test.html" />
       <item itemvalue="Python.distinc" />
       <item itemvalue="JavaScript Debug.test.html (1)" />
       <item itemvalue="JavaScript Debug.block.html" />
+      <item itemvalue="JavaScript Debug.float.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.float.html" />
         <item itemvalue="JavaScript Debug.block.html" />
         <item itemvalue="JavaScript Debug.test.html (1)" />
         <item itemvalue="Python.distinc" />
         <item itemvalue="JavaScript Debug.first.html" />
-        <item itemvalue="JavaScript Debug.test.html" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +355,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -365,9 +363,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32894737" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32894737" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.16248637" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.16248637" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32894737" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985591" visible="true" weight="0.1401919" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985591" visible="true" weight="0.14179105" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -386,24 +384,24 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.50144094" side_tool="true" weight="0.25120515" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985591" visible="true" weight="0.11940298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32894737" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.23669924" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32790446" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32894737" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39522257" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32894737" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32894737" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32790446" />
+      <window_info id="Favorites" order="2" sideWeight="0.50144094" side_tool="true" weight="0.25120515" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,13 +422,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/middleware/jdk_install.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -672,80 +663,57 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/reset.ipynb" />
-    <entry file="file://$PROJECT_DIR$/web/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1167">
-          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/first.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/reset.css" />
+    <entry file="file://$PROJECT_DIR$/web/style.css" />
+    <entry file="file://$PROJECT_DIR$/web/header.css" />
+    <entry file="file://$PROJECT_DIR$/web/first.html" />
+    <entry file="file://$PROJECT_DIR$/web/test.html" />
     <entry file="file://$PROJECT_DIR$/单例模式.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/face/distinc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="810">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/html/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/html/block.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="55" />
+        <state relative-caret-position="1800">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9422">
+        <state relative-caret-position="480">
           <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="450">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/html/block.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/html/float.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
