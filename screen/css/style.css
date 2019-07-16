@@ -3,65 +3,48 @@ body {
     background-size: cover;
     z-index: 1;
 }
+
+.header {
+    position: relative;
+
+
+}
 .logo {
     position: absolute;
-    top: 0;
-    left: 30px;
-    height: 50px;
-    width: 300px;
-}
-.headerLine{
-    width: 100%;
-    height: 100%;
+    margin-left: 25px;
+    margin-top: 8px;
 }
 
-.headTitle{
+.logo_ex {
+    width: 210px;
+    height: 40px;
+}
+.time {
     position: absolute;
-    top: 0;
-    left: 770px;
+    right: 25px;
+    top: 18px;
+}
+.time_ex {
     color: white;
-    font-size: 27px;
- }
-.headEng {
-    position: absolute;
-    top: 30px;
-    left: 770px;
-    color: white;
-    font-size: 15px;
-}
-.left1 {
-    position: absolute;
-    height: 300px;
-    width: 48%;
-    top: 70px;
-    left: 30px;
-}
-.right1 {
-    position: absolute;
-    height: 300px;
-    width: 48%;
-    top: 70px;
-    right:30px;
-}
-.left2 {
-    position: absolute;
-    height: 300px;
-    width: 48%;
-    top: 400px;
-    left: 30px;
-}
+    font-size: 20px;
+    text-align: center;
 
-.right2 {
-    position: absolute;
-    height: 300px;
-    width: 48%;
-    top: 400px;
-    right: 30px;
 }
-.right3 {
+.line {
     position: absolute;
+    left: 25px;
+    right: 25px;
+    top: 0;
+}
+.line_ex {
     height: 300px;
-    width: 48%;
-    top: 700px;
-    right: 30px;
+    background: url("../img/header-line.png") center top;
+}
+.title {
+    position: absolute;
+    margin: 0 auto;
+}
+.title_ex {
+    color: white;
+    font-size: 35px;
 }
