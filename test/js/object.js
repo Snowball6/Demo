@@ -18,3 +18,12 @@
 // setInterval(function () {
 //     console.log(123)
 // }, 3000);             //每隔多长时间就执行一次
+
+// document.getElementById('c1').innerText="修改";
+// var c2 = document.getElementsByClassName('c2');
+// c2[2].innerHTML="11";
+
+var c0 = document.getElementById("c0");
+// var c4 = document.createElement("div");
+// c4.innerText = "我是插入的";
+// c0.innerText

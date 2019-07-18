@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .c {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: skyblue;
+        }
+        .c1 {
+            background: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="c1 c" id="c1"></div>
+</body>
+<script>
+    var c1Ele = document.getElementById("c1");
+    // c1Ele.className;              //返回样式的值 ---- "c1 c"
+    // c1Ele.classList;              //返回的数组 ----一般这样用  DOMTokenList(2) ["c1", "c", value: "c1 c"]
+    // c1Ele.classList.remove("c1");   //删除一个样式类
+    // c1Ele.classList.add("c1")      //增加一个样式类
+    // c1Ele.classList.contains("c1");   //判断是否存在样式类，返回ture和false
+    // c1Ele.classList.toggle("c1")    //判断是否存在，如果存在就删除，不存在就添加
+    c1Ele.style.backgroundColor = "red";
+</script>
+</html>
