@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <label for="s1">省</label>
+    <select id="s1">
+        <option value="">请选择省</option>
+    </select>
+    <label for="s2">市</label>
+    <select name="" id="s2">
+        <option value="" id="moren">请选择市</option>
+    </select>
+</body>
+<script>
+    var selEle = document.getElementById("s1");
+    var sel2Ele = document.getElementById("s2");
+    var data = {
+        "北京": ["朝阳区","西城区"],
+        "赤峰":["红山区", "新城区"]
+    };
+    for (var i in data){
+        var optEle = document.createElement("option");
+        optEle.innerText = i;
+        selEle.appendChild(optEle);
+    }
+    selEle.onchange = function (ev) {
+        sel2Ele.innerHTML = "";
+        var selValue = this.value;
+        // console.log(data[selValue]);
+       for(var i in data[selValue]) {
+           // console.log(data[selValue][i]);
+           var opEle = document.createElement("option");
+           opEle.innerText = data[selValue][i];
+           sel2Ele.appendChild(opEle);
+       }
+    }
+</script>
+</html>
