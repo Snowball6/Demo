@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<input type="text" id="t1"><br/>
+<input type="text" id="s1">
+<input type="button" value="开始" id="k1">
+<input type="button" value="结束" id="j1">
+</body>
+<script>
+    //无按钮自动刷新时间
+    var t1Ele = document.getElementById("t1");
+    function time1() {
+        var now = new Date();
+        t1Ele.value = now.toLocaleString()
+    }
+    time1();
+    setInterval(time1,1000);
+
+
+    var s1Ele = document.getElementById("s1");
+    var t;
+    function time() {
+        var now = new Date();
+        s1Ele.value = now.toLocaleString()
+    }
+    time();
+    var k1Ele = document.getElementById("k1");
+    k1Ele.onclick = function (ev) {
+        if (!t){
+            t = setInterval(time,1000)
+        }
+
+    };
+    var j1Ele = document.getElementById("j1");
+    j1Ele.onclick = function (ev) {
+        t = clearInterval(t);
+        t = null;
+    };
+</script>
+</html>
