@@ -9,5 +9,12 @@
 // console.log(today.toLocaleString());   //2019/7/17 上午9:39:06
 // console.log(today.getDay());
 
-var phone = new RegExp("^1[3-9][0-9]{9}$");
-phone.test("130012433333");
+// var phone = new RegExp("^1[3-9][0-9]{9}$");
+// phone.test("130012433333");
+// setTimeout(function () {
+//     alert(123)
+// }, 3000);             //指定时间后做一件事
+//
+// setInterval(function () {
+//     console.log(123)
+// }, 3000);             //每隔多长时间就执行一次
