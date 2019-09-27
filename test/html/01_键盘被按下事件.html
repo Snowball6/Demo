@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<table border="1">
+  <thead>
+  <tr>
+    <th>选择</th>
+    <th>姓名</th>
+    <th>操作</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><input type="checkbox"></td>
+    <td>Egon</td>
+    <td>
+      <select>
+        <option value="1">上线</option>
+        <option value="2">下线</option>
+        <option value="3">停职</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox"></td>
+    <td>Alex</td>
+    <td>
+      <select>
+        <option value="1">上线</option>
+        <option value="2">下线</option>
+        <option value="3">停职</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox"></td>
+    <td>Yuan</td>
+    <td>
+      <select>
+        <option value="1">上线</option>
+        <option value="2">下线</option>
+        <option value="3">停职</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox"></td>
+    <td>EvaJ</td>
+    <td>
+      <select>
+        <option value="1">上线</option>
+        <option value="2">下线</option>
+        <option value="3">停职</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td><input type="checkbox"></td>
+    <td>Gold</td>
+    <td>
+      <select>
+        <option value="1">上线</option>
+        <option value="2">下线</option>
+        <option value="3">停职</option>
+      </select>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<input type="button" id="b1" value="全选">
+<input type="button" id="b2" value="取消">
+<input type="button" id="b3" value="反选">
+
+
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script>
+    var keyOption = false;
+    // 当按键按下的时候
+    $(window).keydown(function (event) {
+        if (event.keyCode===16){
+            keyOption = true
+        }
+    });
+
+    // 当按键抬起的时候
+    $(window).keyup(function (event) {
+        if (event.keyCode===16){
+            keyOption = false
+        }
+    });
+
+    $("select").change(function (event) {
+        // 判断当前这一行是否被选中
+        var isCheck = $(this).parent().siblings().first().find("input:checkbox").prop("checked");
+        if (keyOption && isCheck){
+            // 查找到select 修改的值
+            var value = $(this).val();
+            // 找到所有选中的行，并设置值为修改的值
+           var $select = $("input:checked").parent().parent().find("select")
+            $select.val(value);
+        }
+    });
+
+    // 全选
+    $("#b1").on("click", function () {
+        $("input:checkbox").prop("checked", false)
+    });
+
+    // 取消
+    $("#b2").on("click", function () {
+        $("input:checkbox").prop("checked", true)
+    });
+
+    // 反选
+    $("#b3").on("click", function () {
+        $("input:checkbox").each(function () {
+            var checkEle = $(this).prop("checked");
+            $(this).prop("checked", !checkEle)
+        })
+
+
+    })
+</script>
+</body>
+</html>
