@@ -8,11 +8,13 @@
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" type="text/css" href="https://www.jq22.com/jquery/bootstrap-3.3.4.css">
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <!--<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>-->
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="js/bootstrap.min.js"></script>
     <!--echarts JS-->
-    <script src="https://cdn.bootcss.com/echarts/4.2.1-rc1/echarts.min.js"></script>
+    <!--<script src="https://cdn.bootcss.com/echarts/4.2.1-rc1/echarts.min.js"></script>-->
+    <script src="js/echarts.min.js" type="text/javascript"></script>
     <!-- 轮播swiper文件 -->
     <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
     <script src="js/swiper.min.js"></script>
@@ -51,7 +53,7 @@
                 <span>固化流程</span>
                 <img src="images/ksh33.png">
             </div>
-            <div style="color: white;font-size: 23px">
+            <div style="color: white;font-size: 20px">
                 <div>&nbsp;</div>
                 <div>&nbsp;</div>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;按照董事长<span style="color: red">“强基固本、固化流程”</span>的指示要求，完善资源申请、系统检修、应急处置、安全预警和协同处置等
@@ -60,94 +62,78 @@
             </div>
         </div>
         <!--左二-->
-        <!--<div class="visual_box">-->
-        <!--<div class="visual_title">-->
-        <!--<span>漏洞消缺</span>-->
-        <!--<img src="images/ksh33.png">-->
-        <!--</div>-->
-        <!--&lt;!&ndash;<div style="color: white;font-size: 18px">&ndash;&gt;-->
-        <!--<div>&nbsp;</div>-->
-        <!--<div>&nbsp;</div>-->
-        <!--<div>&nbsp;</div>-->
-        <!--<div style="color: honeydew;font-size: 17px">高危漏洞<span style="color: #1079a6;">(124)</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span-->
-        <!--style="color: #00cefa">完成整改(32)</span></div>-->
-        <!--<div>&nbsp;</div>-->
-        <!--<div style="color: honeydew;font-size: 17px"><span style="color: #1079a6;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span-->
-        <!--style="color: red">未完成整改(59)</span></div>-->
-        <!--<div>&nbsp;</div>-->
-        <!--<div style="color: honeydew;font-size: 17px">疑似漏洞<span style="color: #1079a6;">(7680)</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span-->
-        <!--style="color: #00cefa">完成整改(2575)</span></div>-->
-        <!--<div>&nbsp;</div>-->
-        <!--<div style="color: honeydew;font-size: 17px"><span style="color: #1079a6;"></span>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span-->
-        <!--style="color: red">正在确认中(5005)</span></div>-->
-        <!--&lt;!&ndash;<div>&nbsp;</div>&ndash;&gt;-->
-        <!--&lt;!&ndash;<div>&nbsp;</div>&ndash;&gt;-->
-        <!--&lt;!&ndash;<div>&nbsp;</div>&ndash;&gt;-->
-        <!--&lt;!&ndash;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;扫描基础环境高危漏洞<span&ndash;&gt;-->
-        <!--&lt;!&ndash;style="color: yellow">124项</span>，完成整改<span style="color: yellow">32项</span>、整改中<span&ndash;&gt;-->
-        <!--&lt;!&ndash;style="color: yellow">59项</span>。扫描生产环境第三方组件，发现疑似漏洞<span style="color: yellow">7680项</span>，完成<span&ndash;&gt;-->
-        <!--&lt;!&ndash;style="color: yellow">2575项</span>确认或整改工作，<span style="color: yellow">5005项</span>正在确认中。&ndash;&gt;-->
-        <!--&lt;!&ndash;</div>&ndash;&gt;-->
-        <!--&lt;!&ndash;<img src="images/321.png" alt="" style="height: 278px;width: 200px">&ndash;&gt;-->
-        <!--</div>-->
         <div class="visual_box">
             <div class="visual_title">
                 <span>漏洞消缺</span>
                 <img src="images/ksh33.png">
             </div>
-            <div class="visual_chart sfzcll">
-                <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color: gold;color: black"><strong>整改中</strong></span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color: green;color: black"><strong>已完成</strong></span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color: red;color: black"><strong>未整改</strong></span></div>
-                <a>基础环境漏洞</a>
-                <div class="sfzcll_pos_box">
-
-                    <div class="sfzcll_box">
-                        <img class="sfzcll_bkJk" src="images/ksh34.png">
-                        <img class="sfzcll_bkJk" src="images/ksh34.png">
-                        <img class="sfzcll_bkJk" src="images/ksh34.png">
-                        <img class="sfzcll_bkJk" src="images/ksh34.png">
-                        <div class="sfzcll_smallBk1">
-                            <div class="yg2">
-                                <span>33</span>
-                            </div>
-                        </div>
-                        <div class="sfzcll_smallBk2">
-                            <div class="ygh3">
-                                <span>59</span>
-                            </div>
-                        </div>
-                        <div class="sfzcll_smallBk3">
-                            <div class="ygh4">
-                                <span>32</span>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    <div>&nbsp;</div>
-                    <a>jar包漏洞</a>
-
-                    <div class="sfzcll_box">
-                        <img class="sfzcll_bkJk" src="images/ksh34.png">
-                        <img class="sfzcll_bkJk" src="images/ksh34.png">
-                        <img class="sfzcll_bkJk" src="images/ksh34.png">
-                        <img class="sfzcll_bkJk" src="images/ksh34.png">
-                         <div class="sfzcll_smallBk4">
-                            <div class="yg5">
-                                <span>2575</span>
-                            </div>
-                        </div>
-                        <div class="sfzcll_smallBk5">
-                            <div class="ygh6">
-                                <span>5105</span>
-                            </div>
-                        </div>
-
-                        <div class="clear"></div>
-                    </div>
-
-                </div>
-
+            <div style="color: white;font-size: 20px">
+                <div>&nbsp;</div>
+                <div>&nbsp;</div>
+                <div>&nbsp;</div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;扫描基础环境高危漏洞<span
+                    style="color: yellow">124项</span>，完成整改<span style="color: yellow">32项</span>、整改中<span
+                    style="color: yellow">59项</span>。扫描生产环境第三方组件，发现疑似漏洞<span style="color: yellow">7680项</span>，完成<span
+                    style="color: yellow">2575项</span>确认或整改工作，<span style="color: yellow">5005项</span>正在确认中。
             </div>
         </div>
+        <!--<div class="visual_box">-->
+        <!--<div class="visual_title">-->
+        <!--<span>漏洞消缺</span>-->
+        <!--<img src="images/ksh33.png">-->
+        <!--</div>-->
+        <!--<div class="visual_chart sfzcll">-->
+        <!--<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color: gold;color: black"><strong>整改中</strong></span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color: green;color: black"><strong>已完成</strong></span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color: red;color: black"><strong>未整改</strong></span></div>-->
+        <!--<a>基础环境漏洞</a>-->
+        <!--<div class="sfzcll_pos_box">-->
+        <!--<div class="sfzcll_box">-->
+        <!--<img class="sfzcll_bkJk" src="images/ksh34.png">-->
+        <!--<img class="sfzcll_bkJk" src="images/ksh34.png">-->
+        <!--<img class="sfzcll_bkJk" src="images/ksh34.png">-->
+        <!--<img class="sfzcll_bkJk" src="images/ksh34.png">-->
+        <!--<div class="sfzcll_smallBk1">-->
+        <!--<div class="yg2">-->
+        <!--<span>33</span>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="sfzcll_smallBk2">-->
+        <!--<div class="ygh3">-->
+        <!--<span>59</span>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="sfzcll_smallBk3">-->
+        <!--<div class="ygh4">-->
+        <!--<span>32</span>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="clear"></div>-->
+        <!--</div>-->
+        <!--<div>&nbsp;</div>-->
+        <!--<a>jar包漏洞</a>-->
+
+        <!--<div class="sfzcll_box">-->
+        <!--<img class="sfzcll_bkJk" src="images/ksh34.png">-->
+        <!--<img class="sfzcll_bkJk" src="images/ksh34.png">-->
+        <!--<img class="sfzcll_bkJk" src="images/ksh34.png">-->
+        <!--<img class="sfzcll_bkJk" src="images/ksh34.png">-->
+        <!--<div class="sfzcll_smallBk4">-->
+        <!--<div class="yg5">-->
+        <!--<span>2575</span>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="sfzcll_smallBk5">-->
+        <!--<div class="ygh6">-->
+        <!--<span>5105</span>-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="clear"></div>-->
+        <!--</div>-->
+
+        <!--</div>-->
+
+        <!--</div>-->
+        <!--</div>-->
         <div class="visual_box" style="display:none">
             <div class="visual_title">
                 <span>交通工具流量</span>
@@ -302,25 +288,37 @@
         </div>
     </div>
     <div class="visual_right">
-        <div class="visual_box">
-            <div class="visual_title">
-                <span>保障准备</span>
-                <img src="images/ksh33.png">
-            </div>
-            <div class="swiper-container visual_swiper1 visual_chart">
-                <div class="swiper-slide" style="color: white;font-size: 18px">
-                    <div class="swiper-slide" id="main31"></div>
-                </div>
-            </div>
-        </div>
         <div class="visual_box visualSfzsfl">
             <div class="visual_title">
-                <span>值班人员</span>
+                <span>值班值守</span>
                 <img src="images/ksh33.png">
             </div>
             <div class="" id="main9"></div>
             <div class="swiper-slide" id="main3"></div>
         </div>
+        <div class="visual_box">
+            <div class="visual_title">
+                <span>安全保障</span>
+                <img src="images/ksh33.png">
+            </div>
+            <div class="swiper-container visual_swiper1 visual_chart">
+                <div class="swiper-slide" style="color: white;font-size: 18px">
+                    <div class="" id="main31"></div>
+                    <h4><strong style="color: yellow">系统关停</strong></h4>
+                   &nbsp; &nbsp; &nbsp; &nbsp;共计关停业务系统<strong style="color: yellow">44</strong>个，关停域名<strong style="color: yellow">32</strong>个；对外提供服务系统<strong style="color: yellow">4</strong>个。
+                    <h4><strong style="color: yellow">漏洞扫描</strong></h4>
+                    &nbsp; &nbsp; &nbsp; &nbsp;部署漏洞扫描设备<strong style="color: yellow">3</strong>套，开展漏洞扫描<strong style="color: yellow">19</strong>次。
+                    <h4><strong style="color: yellow">应急演练</strong></h4>
+                    &nbsp; &nbsp; &nbsp; &nbsp;开展应急演练<strong style="color: yellow">3</strong>次，处理僵尸策略<strong style="color: yellow">26</strong>条。
+                    <h4><strong style="color: yellow">保密责任书</strong></h4>
+                    &nbsp; &nbsp; &nbsp; &nbsp;运维中心全员签订<strong style="color: yellow">51</strong>份。
+                    <h4><strong style="color: yellow">安全设备</strong></h4>
+                    &nbsp; &nbsp; &nbsp; &nbsp;防火墙、IPS、强隔离等在运安全防护设备共<strong style="color: yellow">46</strong>套。
+
+                </div>
+            </div>
+        </div>
+
         <div class="visual_box">
             <div class="visual_title">
                 <span>今日值班人员</span>
