@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d2225da-9ef7-463d-976b-b459f229cbd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jq22ksh8969201906091640/ksh/js/echarts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jq22ksh8969201906091640/ksh/js/jquery-3.4.1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jq22ksh8969201906091640/ksh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jq22ksh8969201906091640/ksh/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jq22ksh8969201906091640/ksh/js/visual.js" beforeDir="false" afterPath="$PROJECT_DIR$/jq22ksh8969201906091640/ksh/js/visual.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,13 +90,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="263" />
+          <entry key="html" value="341" />
           <entry key="js" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="263" />
+          <entry key="HTML" value="341" />
           <entry key="JavaScript" value="6" />
         </counts>
       </usages-collector>
@@ -110,18 +107,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jq22ksh8969201906091640/ksh/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="370" column="27" selection-start-line="370" selection-start-column="27" selection-end-line="370" selection-end-column="27" />
+            <state relative-caret-position="677">
+              <caret line="69" column="97" selection-start-line="69" selection-start-column="97" selection-end-line="69" selection-end-column="97" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2035#2041#1" expanded="true" />
+                <element signature="e#1927#1933#0" expanded="true" />
+                <element signature="e#1933#1939#0" expanded="true" />
+                <element signature="e#1939#1945#0" expanded="true" />
+                <element signature="e#1945#1951#0" expanded="true" />
+                <element signature="e#1951#1957#0" expanded="true" />
+                <element signature="e#1957#1963#0" expanded="true" />
+                <element signature="e#1963#1969#0" expanded="true" />
+                <element signature="e#1969#1975#0" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#3;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#2702#2708#1" expanded="true" />
-                <element signature="e#2728#2734#1" expanded="true" />
-                <element signature="e#2754#2760#1" expanded="true" />
                 <element signature="e#2775#2781#0" expanded="true" />
                 <element signature="e#2781#2787#0" expanded="true" />
                 <element signature="e#2787#2793#0" expanded="true" />
@@ -176,7 +183,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jq22ksh8969201906091640/ksh/js/visual.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="508">
@@ -253,8 +260,8 @@
         <option value="$PROJECT_DIR$/test/html/bootstrap.html" />
         <option value="$PROJECT_DIR$/test/html/04_进度条.html" />
         <option value="$PROJECT_DIR$/jq22ksh8969201906091640/ksh/js/echarts.min.js" />
-        <option value="$PROJECT_DIR$/jq22ksh8969201906091640/ksh/index.html" />
         <option value="$PROJECT_DIR$/jq22ksh8969201906091640/ksh/js/visual.js" />
+        <option value="$PROJECT_DIR$/jq22ksh8969201906091640/ksh/index.html" />
       </list>
     </option>
   </component>
@@ -426,7 +433,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985591" visible="true" weight="0.11247335" />
@@ -758,17 +765,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jq22ksh8969201906091640/ksh/js/visual.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="490" column="19" selection-start-line="490" selection-start-column="19" selection-end-line="490" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jq22ksh8969201906091640/ksh/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="370" column="27" selection-start-line="370" selection-start-column="27" selection-end-line="370" selection-end-column="27" />
+        <state relative-caret-position="677">
+          <caret line="69" column="97" selection-start-line="69" selection-start-column="97" selection-end-line="69" selection-end-column="97" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2035#2041#1" expanded="true" />
+            <element signature="e#1927#1933#0" expanded="true" />
+            <element signature="e#1933#1939#0" expanded="true" />
+            <element signature="e#1939#1945#0" expanded="true" />
+            <element signature="e#1945#1951#0" expanded="true" />
+            <element signature="e#1951#1957#0" expanded="true" />
+            <element signature="e#1957#1963#0" expanded="true" />
+            <element signature="e#1963#1969#0" expanded="true" />
+            <element signature="e#1969#1975#0" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#2702#2708#1" expanded="true" />
-            <element signature="e#2728#2734#1" expanded="true" />
-            <element signature="e#2754#2760#1" expanded="true" />
             <element signature="e#2775#2781#0" expanded="true" />
             <element signature="e#2781#2787#0" expanded="true" />
             <element signature="e#2787#2793#0" expanded="true" />
@@ -819,13 +843,6 @@
             <element signature="e#14385#14391#0" expanded="true" />
             <element signature="n#style#0;n#strong#8;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq22ksh8969201906091640/ksh/js/visual.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="490" column="19" selection-start-line="490" selection-start-column="19" selection-end-line="490" selection-end-column="19" />
         </state>
       </provider>
     </entry>
