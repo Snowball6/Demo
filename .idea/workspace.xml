@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d2225da-9ef7-463d-976b-b459f229cbd7" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/vue/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/test.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jq22ksh8969201906091640/ksh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jq22ksh8969201906091640/ksh/index.html" afterDir="false" />
+>>>>>>> 0d5a16a72788d2366d5daab399569a1d89ea7e43
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,20 +17,20 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Demo$mysql_excel.coverage" NAME="mysql_excel Coverage Results" MODIFIED="1547101134383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excel" />
-    <SUITE FILE_PATH="coverage/Demo$msyql_execute.coverage" NAME="msyql_execute Coverage Results" MODIFIED="1556104290302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
-    <SUITE FILE_PATH="coverage/Demo$disk_total.coverage" NAME="disk_total Coverage Results" MODIFIED="1556436986637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linux" />
-    <SUITE FILE_PATH="coverage/Demo$base_information.coverage" NAME="base_information Coverage Results" MODIFIED="1548327993496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linux" />
-    <SUITE FILE_PATH="coverage/Demo$.coverage" NAME="单例模式 Coverage Results" MODIFIED="1550654572976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Demo$fuzzy_matching.coverage" NAME="fuzzy_matching Coverage Results" MODIFIED="1547171353003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fuzzy_matching" />
-    <SUITE FILE_PATH="coverage/Demo$mysql_database_create.coverage" NAME="mysql_database_create Coverage Results" MODIFIED="1547082279385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
     <SUITE FILE_PATH="coverage/Demo$111.coverage" NAME="111 Coverage Results" MODIFIED="1565327321686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
+    <SUITE FILE_PATH="coverage/Demo$msyql_execute.coverage" NAME="msyql_execute Coverage Results" MODIFIED="1556104290302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
+    <SUITE FILE_PATH="coverage/Demo$fuzzy_matching.coverage" NAME="fuzzy_matching Coverage Results" MODIFIED="1547171353003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fuzzy_matching" />
+    <SUITE FILE_PATH="coverage/Demo$mysql_insert.coverage" NAME="mysql_insert Coverage Results" MODIFIED="1547082844918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
+    <SUITE FILE_PATH="coverage/Demo$mysql_database_create.coverage" NAME="mysql_database_create Coverage Results" MODIFIED="1547082279385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
+    <SUITE FILE_PATH="coverage/Demo$disk_total.coverage" NAME="disk_total Coverage Results" MODIFIED="1556436986637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linux" />
+    <SUITE FILE_PATH="coverage/Demo$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1551237457211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/middleware" />
+    <SUITE FILE_PATH="coverage/Demo$.coverage" NAME="单例模式 Coverage Results" MODIFIED="1550654572976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Demo$distinc.coverage" NAME="distinc Coverage Results" MODIFIED="1562813615056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/face" />
     <SUITE FILE_PATH="coverage/Demo$mysql_connect.coverage" NAME="mysql_connect Coverage Results" MODIFIED="1556103652305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
     <SUITE FILE_PATH="coverage/Demo$file.coverage" NAME="file Coverage Results" MODIFIED="1551339373520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Demo$distinc.coverage" NAME="distinc Coverage Results" MODIFIED="1562813615056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/face" />
     <SUITE FILE_PATH="coverage/Demo$test.coverage" NAME="test Coverage Results" MODIFIED="1550821873771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Demo$base_information.coverage" NAME="base_information Coverage Results" MODIFIED="1548327993496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linux" />
     <SUITE FILE_PATH="coverage/Demo$merge_excel.coverage" NAME="merge_excel Coverage Results" MODIFIED="1556428811687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excel" />
-    <SUITE FILE_PATH="coverage/Demo$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1551237457211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/middleware" />
-    <SUITE FILE_PATH="coverage/Demo$mysql_insert.coverage" NAME="mysql_insert Coverage Results" MODIFIED="1547082844918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-156658533">
@@ -69,21 +73,121 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1803551364">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="js" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JavaScript" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="341" />
+          <entry key="js" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="341" />
+          <entry key="JavaScript" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Demo" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bootstrap.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/html/bootstrap.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jq22ksh8969201906091640/ksh/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="677">
+              <caret line="69" column="97" selection-start-line="69" selection-start-column="97" selection-end-line="69" selection-end-column="97" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2035#2041#1" expanded="true" />
+                <element signature="e#1927#1933#0" expanded="true" />
+                <element signature="e#1933#1939#0" expanded="true" />
+                <element signature="e#1939#1945#0" expanded="true" />
+                <element signature="e#1945#1951#0" expanded="true" />
+                <element signature="e#1951#1957#0" expanded="true" />
+                <element signature="e#1957#1963#0" expanded="true" />
+                <element signature="e#1963#1969#0" expanded="true" />
+                <element signature="e#1969#1975#0" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#3;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2702#2708#1" expanded="true" />
+                <element signature="e#2775#2781#0" expanded="true" />
+                <element signature="e#2781#2787#0" expanded="true" />
+                <element signature="e#2787#2793#0" expanded="true" />
+                <element signature="e#2793#2799#0" expanded="true" />
+                <element signature="e#2799#2805#0" expanded="true" />
+                <element signature="e#2805#2811#0" expanded="true" />
+                <element signature="e#2811#2817#0" expanded="true" />
+                <element signature="e#2817#2823#0" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#3;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#4;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#5;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#h4#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#13508#13514#0" expanded="true" />
+                <element signature="e#13515#13521#0" expanded="true" />
+                <element signature="e#13522#13528#0" expanded="true" />
+                <element signature="e#13470#13476#0" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#2;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#h4#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#13754#13760#0" expanded="true" />
+                <element signature="e#13761#13767#0" expanded="true" />
+                <element signature="e#13768#13774#0" expanded="true" />
+                <element signature="e#13775#13781#0" expanded="true" />
+                <element signature="n#style#0;n#strong#3;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#4;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#h4#2;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#13973#13979#0" expanded="true" />
+                <element signature="e#13980#13986#0" expanded="true" />
+                <element signature="e#13987#13993#0" expanded="true" />
+                <element signature="e#13994#14000#0" expanded="true" />
+                <element signature="n#style#0;n#strong#5;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#6;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#h4#3;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#14193#14199#0" expanded="true" />
+                <element signature="e#14200#14206#0" expanded="true" />
+                <element signature="e#14207#14213#0" expanded="true" />
+                <element signature="e#14214#14220#0" expanded="true" />
+                <element signature="n#style#0;n#strong#7;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#h4#4;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#14364#14370#0" expanded="true" />
+                <element signature="e#14371#14377#0" expanded="true" />
+                <element signature="e#14378#14384#0" expanded="true" />
+                <element signature="e#14385#14391#0" expanded="true" />
+                <element signature="n#style#0;n#strong#8;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="04_进度条.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/html/04_进度条.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,6 +196,13 @@
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jq22ksh8969201906091640/ksh/js/visual.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="490" column="19" selection-start-line="490" selection-start-column="19" selection-end-line="490" selection-end-column="19" />
+>>>>>>> 0d5a16a72788d2366d5daab399569a1d89ea7e43
             </state>
           </provider>
         </entry>
@@ -124,8 +235,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/中间件/jdk.py" />
         <option value="$PROJECT_DIR$/middleware/tomcat_install.py" />
+=======
+>>>>>>> 0d5a16a72788d2366d5daab399569a1d89ea7e43
         <option value="$PROJECT_DIR$/middleware/niginx_install.py" />
         <option value="$PROJECT_DIR$/middleware/test.py" />
         <option value="$PROJECT_DIR$/test/111" />
@@ -174,7 +288,13 @@
         <option value="$PROJECT_DIR$/test/html/01_键盘被按下事件.html" />
         <option value="$PROJECT_DIR$/test/html/bootstrap.html" />
         <option value="$PROJECT_DIR$/test/html/04_进度条.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/vue/test.html" />
+=======
+        <option value="$PROJECT_DIR$/jq22ksh8969201906091640/ksh/js/echarts.min.js" />
+        <option value="$PROJECT_DIR$/jq22ksh8969201906091640/ksh/js/visual.js" />
+        <option value="$PROJECT_DIR$/jq22ksh8969201906091640/ksh/index.html" />
+>>>>>>> 0d5a16a72788d2366d5daab399569a1d89ea7e43
       </list>
     </option>
   </component>
@@ -190,10 +310,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="392" />
     <option name="y" value="52" />
     <option name="width" value="1582" />
@@ -237,7 +354,29 @@
             <path>
               <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="vue" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="jq22ksh8969201906091640" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jq22ksh8969201906091640" type="462c0819:PsiDirectoryNode" />
+              <item name="ksh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jq22ksh8969201906091640" type="462c0819:PsiDirectoryNode" />
+              <item name="ksh" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 0d5a16a72788d2366d5daab399569a1d89ea7e43
             </path>
           </expand>
           <select />
@@ -259,7 +398,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="G:\03_Github\Demo\vue\plugins" />
+=======
+      <recent name="D:\00_github\Demo\jq22ksh8969201906091640\ksh\js" />
+>>>>>>> 0d5a16a72788d2366d5daab399569a1d89ea7e43
       <recent name="G:\03_Github\Demo" />
       <recent name="G:\03_Github\Demo\test\js" />
       <recent name="G:\03_Github\Demo\screen\img" />
@@ -284,22 +427,49 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JavaScript Debug.test.html">
     <configuration name="01_键盘被按下事件.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/test/html/01_键盘被按下事件.html" />
     <configuration name="03_input框实时监听.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/test/html/03_input框实时监听.html" />
     <configuration name="04_进度条.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/test/html/04_进度条.html" />
     <configuration name="bootstrap.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/test/html/bootstrap.html" />
     <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/vue/test.html" />
+=======
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="01_键盘被按下事件.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/test/html/01_键盘被按下事件.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="03_input框实时监听.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/test/html/03_input框实时监听.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="04_进度条.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/test/html/04_进度条.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="bootstrap.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/test/html/bootstrap.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/jq22ksh8969201906091640/ksh/index.html">
+      <method v="2" />
+    </configuration>
+>>>>>>> 0d5a16a72788d2366d5daab399569a1d89ea7e43
     <list>
       <item itemvalue="JavaScript Debug.01_键盘被按下事件.html" />
       <item itemvalue="JavaScript Debug.03_input框实时监听.html" />
       <item itemvalue="JavaScript Debug.bootstrap.html" />
       <item itemvalue="JavaScript Debug.04_进度条.html" />
+<<<<<<< HEAD
       <item itemvalue="JavaScript Debug.test.html" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.test.html" />
+=======
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+>>>>>>> 0d5a16a72788d2366d5daab399569a1d89ea7e43
         <item itemvalue="JavaScript Debug.04_进度条.html" />
         <item itemvalue="JavaScript Debug.bootstrap.html" />
         <item itemvalue="JavaScript Debug.01_键盘被按下事件.html" />
@@ -324,13 +494,23 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.36750272" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985591" visible="true" weight="0.11247335" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50144094" side_tool="true" weight="0.25120515" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32715377" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.18429662" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39476553" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32894737" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.36750272" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32894737" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32894737" />
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985591" visible="true" weight="0.11247335" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
@@ -340,13 +520,16 @@
       <window_info id="Favorites" order="2" sideWeight="0.50144094" side_tool="true" weight="0.25120515" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+=======
+>>>>>>> 0d5a16a72788d2366d5daab399569a1d89ea7e43
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32715377" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
+<<<<<<< HEAD
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -368,6 +551,29 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32790446" />
       <window_info id="Favorites" order="2" sideWeight="0.50144094" side_tool="true" weight="0.25120515" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985591" visible="true" weight="0.11940298" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50144094" side_tool="true" weight="0.25120515" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32790446" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23669924" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39522257" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32894737" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32894737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+>>>>>>> 0d5a16a72788d2366d5daab399569a1d89ea7e43
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,10 +591,10 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/mysql/mysql_insert.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -403,6 +609,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 0d5a16a72788d2366d5daab399569a1d89ea7e43
     <entry file="file://$PROJECT_DIR$/mysql/msyql_execute.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -518,9 +726,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/BaiduNetdiskDownload/第4部分-前端(html,css,Javascript)/day44/day44/day44/01 今日面试题.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://F:/BaiduNetdiskDownload/第4部分-前端(html,css,Javascript)/day44/day44/day44/01 今日面试题.py" />
     <entry file="file://$PROJECT_DIR$/screen/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -640,6 +846,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/html/04_进度条.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/html/bootstrap.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -647,6 +863,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/vue/plugins/vue.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -654,8 +871,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3">
           <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+=======
+    <entry file="file://$PROJECT_DIR$/jq22ksh8969201906091640/ksh/js/jquery-3.4.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq22ksh8969201906091640/ksh/js/echarts.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="26236" column="14" selection-start-line="26236" selection-start-column="14" selection-end-line="26236" selection-end-column="14" />
+>>>>>>> 0d5a16a72788d2366d5daab399569a1d89ea7e43
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq22ksh8969201906091640/ksh/js/visual.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="490" column="19" selection-start-line="490" selection-start-column="19" selection-end-line="490" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq22ksh8969201906091640/ksh/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="69" column="97" selection-start-line="69" selection-start-column="97" selection-end-line="69" selection-end-column="97" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2035#2041#1" expanded="true" />
+            <element signature="e#1927#1933#0" expanded="true" />
+            <element signature="e#1933#1939#0" expanded="true" />
+            <element signature="e#1939#1945#0" expanded="true" />
+            <element signature="e#1945#1951#0" expanded="true" />
+            <element signature="e#1951#1957#0" expanded="true" />
+            <element signature="e#1957#1963#0" expanded="true" />
+            <element signature="e#1963#1969#0" expanded="true" />
+            <element signature="e#1969#1975#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2702#2708#1" expanded="true" />
+            <element signature="e#2775#2781#0" expanded="true" />
+            <element signature="e#2781#2787#0" expanded="true" />
+            <element signature="e#2787#2793#0" expanded="true" />
+            <element signature="e#2793#2799#0" expanded="true" />
+            <element signature="e#2799#2805#0" expanded="true" />
+            <element signature="e#2805#2811#0" expanded="true" />
+            <element signature="e#2811#2817#0" expanded="true" />
+            <element signature="e#2817#2823#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#5;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#h4#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#13508#13514#0" expanded="true" />
+            <element signature="e#13515#13521#0" expanded="true" />
+            <element signature="e#13522#13528#0" expanded="true" />
+            <element signature="e#13470#13476#0" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#2;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#h4#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#13754#13760#0" expanded="true" />
+            <element signature="e#13761#13767#0" expanded="true" />
+            <element signature="e#13768#13774#0" expanded="true" />
+            <element signature="e#13775#13781#0" expanded="true" />
+            <element signature="n#style#0;n#strong#3;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#4;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#h4#2;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#13973#13979#0" expanded="true" />
+            <element signature="e#13980#13986#0" expanded="true" />
+            <element signature="e#13987#13993#0" expanded="true" />
+            <element signature="e#13994#14000#0" expanded="true" />
+            <element signature="n#style#0;n#strong#5;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#6;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#h4#3;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#14193#14199#0" expanded="true" />
+            <element signature="e#14200#14206#0" expanded="true" />
+            <element signature="e#14207#14213#0" expanded="true" />
+            <element signature="e#14214#14220#0" expanded="true" />
+            <element signature="n#style#0;n#strong#7;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#h4#4;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#14364#14370#0" expanded="true" />
+            <element signature="e#14371#14377#0" expanded="true" />
+            <element signature="e#14378#14384#0" expanded="true" />
+            <element signature="e#14385#14391#0" expanded="true" />
+            <element signature="n#style#0;n#strong#8;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -488,7 +488,7 @@ option3 = {
     },
     radar: {
         center: ["50%", "50%"],//偏移位置
-        radius: "80%",
+        radius: "75%",
         startAngle: 40, // 起始角度
         splitNumber: 4,
         shape: "circle",
