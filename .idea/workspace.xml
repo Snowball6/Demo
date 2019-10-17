@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d2225da-9ef7-463d-976b-b459f229cbd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/111.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/html/01_键盘被按下事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/html/02_鼠标悬浮事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/html/03_input框实时监听.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/html/04_进度条.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/html/bootstrap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/html/mod.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/html/mod.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/html/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/html/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/plugins/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -108,14 +85,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04_进度条.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="04_进度条.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/html/04_进度条.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="-3">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="657">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -139,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Desktop/test.py" />
         <option value="$PROJECT_DIR$/中间件/jdk.py" />
         <option value="$PROJECT_DIR$/middleware/tomcat_install.py" />
         <option value="$PROJECT_DIR$/middleware/niginx_install.py" />
@@ -190,6 +175,7 @@
         <option value="$PROJECT_DIR$/test/html/01_键盘被按下事件.html" />
         <option value="$PROJECT_DIR$/test/html/bootstrap.html" />
         <option value="$PROJECT_DIR$/test/html/04_进度条.html" />
+        <option value="$PROJECT_DIR$/vue/test.html" />
       </list>
     </option>
   </component>
@@ -242,7 +228,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,12 +238,13 @@
             <path>
               <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,18 +259,18 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\03_Github\Demo\vue\plugins" />
+      <recent name="G:\03_Github\Demo" />
+      <recent name="G:\03_Github\Demo\test\js" />
+      <recent name="G:\03_Github\Demo\screen\img" />
+      <recent name="G:\03_Github\Demo\screen\js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\03_Github\Demo\excel" />
       <recent name="F:\03_Github\Demo\test" />
       <recent name="F:\03_Github\Demo\excel" />
       <recent name="F:\03_Github\Demo\mysql" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\03_Github\Demo" />
-      <recent name="G:\03_Github\Demo\test\js" />
-      <recent name="G:\03_Github\Demo\screen\img" />
-      <recent name="G:\03_Github\Demo\screen\js" />
-      <recent name="G:\03_Github\Demo\test\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -299,26 +285,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.04_进度条.html">
+  <component name="RunManager" selected="JavaScript Debug.test.html">
     <configuration name="01_键盘被按下事件.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/test/html/01_键盘被按下事件.html" />
-    <configuration name="02_鼠标悬浮事件.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/test/html/02_鼠标悬浮事件.html" />
     <configuration name="03_input框实时监听.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/test/html/03_input框实时监听.html" />
     <configuration name="04_进度条.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/test/html/04_进度条.html" />
     <configuration name="bootstrap.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/test/html/bootstrap.html" />
+    <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo/vue/test.html" />
     <list>
       <item itemvalue="JavaScript Debug.01_键盘被按下事件.html" />
-      <item itemvalue="JavaScript Debug.02_鼠标悬浮事件.html" />
       <item itemvalue="JavaScript Debug.03_input框实时监听.html" />
       <item itemvalue="JavaScript Debug.bootstrap.html" />
       <item itemvalue="JavaScript Debug.04_进度条.html" />
+      <item itemvalue="JavaScript Debug.test.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.test.html" />
         <item itemvalue="JavaScript Debug.04_进度条.html" />
         <item itemvalue="JavaScript Debug.bootstrap.html" />
         <item itemvalue="JavaScript Debug.01_键盘被按下事件.html" />
         <item itemvalue="JavaScript Debug.03_input框实时监听.html" />
-        <item itemvalue="JavaScript Debug.02_鼠标悬浮事件.html" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +332,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32894737" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32894737" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32894737" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985591" visible="true" weight="0.11140725" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985591" visible="true" weight="0.11247335" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -365,24 +351,24 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.50144094" side_tool="true" weight="0.25120515" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985591" visible="true" weight="0.11940298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32894737" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.23669924" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32790446" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32894737" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39522257" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32894737" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32894737" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32790446" />
+      <window_info id="Favorites" order="2" sideWeight="0.50144094" side_tool="true" weight="0.25120515" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,20 +390,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/middleware/niginx_install.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middleware/jdk_install.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysql/mysql_insert.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -676,13 +648,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vue/plugins/vue.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/html/04_进度条.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        <state relative-caret-position="-3">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
         </state>
       </provider>
     </entry>
